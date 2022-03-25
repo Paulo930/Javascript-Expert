@@ -1,0 +1,16 @@
+[
+  {
+    "id": "dcbac2ea-8c36-46b4-8682-d7fc622cf8a9",
+    "name": "Roadster",
+    "releaseYear": 2021,
+    "available": true,
+    "gasAvailable": true
+  },
+  {
+    "id": "d2af3ea5-75e5-4583-9de2-beadecac026b",
+    "name": "Countach",
+    "releaseYear": 2022,
+    "available": true,
+    "gasAvailable": true
+  }
+]

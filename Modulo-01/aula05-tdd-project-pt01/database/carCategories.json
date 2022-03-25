@@ -1,0 +1,11 @@
+[
+  {
+    "id": "b05ec3f8-1c52-4b58-bbb0-8f3a804188ee",
+    "name": "Coupe",
+    "carIds": [
+      "dcbac2ea-8c36-46b4-8682-d7fc622cf8a9",
+      "d2af3ea5-75e5-4583-9de2-beadecac026b"
+    ],
+    "price": "93.99"
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "id": "7cbe87c2-d70d-4f67-870e-2e5ad5857324",
+    "name": "PT Cruiser",
+    "releaseYear": 2021,
+    "available": true,
+    "gasAvailable": true
+  },
+  {
+    "id": "69ecedde-778b-4f12-9545-de09b6301214",
+    "name": "Beetle",
+    "releaseYear": 2021,
+    "available": true,
+    "gasAvailable": true
+  }
+]
