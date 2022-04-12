@@ -6,8 +6,8 @@
   "type": "module",
   "scripts": {
     "start": "node src/index.js",
-    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js npx jest --runInBand --watch --config ./jest.config.js",
-    "test:cov": "node --experimental-vm-modules node_modules/jest/bin/jest.js npx jest --config ./jest.config.js --coverage"
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --runInBand --watch --config ./jest.config.js",
+    "test:cov": "node --experimental-vm-modules node_modules/jest/bin/jest.js --config ./jest.config.js --coverage"
   },
   "keywords": [],
   "author": "",

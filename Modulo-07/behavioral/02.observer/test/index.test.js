@@ -22,6 +22,7 @@ describe('Test Suite for Observer Pattern', () => {
 
     expect(observer.update).toBeCalledWith(expected);
   });
+
   test('#PaymentSubject should not notify unsubscribed observers', () => {
     const subject = new PaymentSubject();
     const observer = {
@@ -35,6 +36,7 @@ describe('Test Suite for Observer Pattern', () => {
 
     expect(observer.update).not.toBeCalledWith(expected);
   });
+
   test('#Payment should notify subject after a credit card transaction', () => {
     const subject = new PaymentSubject();
     const payment = new Payment(subject);
@@ -48,6 +50,7 @@ describe('Test Suite for Observer Pattern', () => {
 
     expect(paymentSubjectNotifierSpy).toBeCalledWith(data);
   });
+
   test('#All should notify subscribers after a credit card payment', () => {
     const subject = new PaymentSubject();
     const shipment = new Shipment();

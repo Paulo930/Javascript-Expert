@@ -1,0 +1,33 @@
+## Subir pacote
+
+npm login
+npm publish --access=public
+
+## Update pacote
+
+npm version patch
+
+> 0.0.1
+
+npm version minor
+
+> 0.1.0
+
+npm version major
+
+> 1.0.0
+
+**Atualizar Major**
+npm i @paulo930/fluentsql@latest
+**Volta a Atualização do pacote**
+npm i @paulo930/fluentsql@1.x
+
+npm publish
+
+## version ver atualização nova
+
+npm outdated
+
+## atualizar pacotes
+
+npm update

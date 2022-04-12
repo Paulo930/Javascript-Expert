@@ -1,0 +1,26 @@
+{
+  "name": "@paulo930/fluentsql",
+  "version": "2.0.3",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-json-modules src/",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --config jest.config.mjs",
+    "test:cov": "node --experimental-vm-modules node_modules/jest/bin/jest.js --config jest.config.mjs --coverage ",
+    "test:watch": "node --experimental-vm-modules node_modules/jest/bin/jest.js --config jest.config.mjs --watchAll "
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Paulo930/fluentsql.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "keywords": [],
+  "author": "paulo930",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}

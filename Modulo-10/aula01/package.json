@@ -1,0 +1,13 @@
+{
+  "name": "@paulo930/aula01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node 1.native-stream.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
